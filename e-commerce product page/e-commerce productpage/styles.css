@@ -18,7 +18,15 @@ body {
     color: #fff;
     padding: 10px 0;
   }
-  
+  .header{
+    position: sticky;
+    top: 0; 
+    background-color: #333;
+    color: white;
+    padding: 10px; 
+    text-align: center; 
+    z-index: 1000; 
+  }
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -303,4 +311,35 @@ p {
 }
 .highlights{
   display: flex;
+}
+
+.specification{
+  display: flex;
+  border: 1px solid grey;
+  justify-content: center;
+  
+}
+.speci_details{
+  display: flex;
+}
+.right{
+  font-weight: bold;
+}
+.specifications_full{
+  display: flex;
+  padding: 30px;
+  margin: 20px ;
+  justify-content:space-between ;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  background-color: rgb(204, 198, 198);
+  margin-top: 0px;  
+  gap: 100px;
+  width: 80%;
+  margin-left: 100px;
+}
+.specification_details .speci_details{
+  width: 250px;
+  height: 430px;  
+  border: 2px solid;
 }
